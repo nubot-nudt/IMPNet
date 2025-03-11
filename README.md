@@ -1,8 +1,23 @@
-# IMPNet
-This is a Pytorch-Lightning implementation of the paper "**Efficient Instance Motion-Aware Point Cloud Scene Prediction **" submitted to **IROS 2025**.
+<div align="center">
 
-![](docs/ICRA_Architecture.png)
-**ATPPNet Architecture.** **
+# IMPNet
+
+</div>
+
+This is a Pytorch-Lightning implementation of the paper
+
+> **Efficient Instance Motion-Aware Point Cloud Scene Prediction**
+>
+> [Yiming Fang](https://github.com/fyyyym), [Xieyuanli Chen](https://github.com/Chen-Xieyuanli), [Neng Wang](https://github.com/neng-wang), [Kaihong Huang](https://ieeexplore.ieee.org/author/37086935527), [Hesheng Wang](https://irmv.sjtu.edu.cn/wanghesheng),  [Huimin Lu](https://scholar.google.com.hk/citations?hl=en&user=cp-6u7wAAAAJ)
+
+Submitted to **IROS 2025**.
+
+<div align="center">
+    <div align="center">
+        <img src="./pic/pipeline.png" width = 100% >
+    </div>
+    <font color=#a0a0a0 size=2>In this paper, we propose IMPNet, a novel instance motion-aware network for future point cloud scene prediction. Unlike prior works, IMPNet explicitly incorporates motion and instance-level information to enhance PCP accuracy. Specifically, we extract appearance and motion features from range images and residual images using a dual-branch convolutional network and fuse them via a motion attention block. Our framework further integrates a motion head for identifying moving objects and an instance-assisted training strategy to improve instance-wise point cloud predictions. Extensive experiments on multiple datasets demonstrate that our proposed network achieves state-of-the-art (SOTA) performance in PCP with superior predictive accuracy and robust generalization across diverse driving scenarios.</font>
+</div>
 
 
 ## Table of Contents
@@ -59,3 +74,12 @@ Please download the model file from (here)
 
 
 ## Acknowledgment
+
+We would like to express our sincere gratitude for the following open-source work that has been immensely helpful in the development of IMPNet.
+
+- [ATPPnet](https://github.com/kaustabpal/ATPPNet): ATPPNet: Attention based Temporal Point cloud Prediction Network.
+- [PCPNet](https://github.com/Blurryface0814/PCPNet): PCPNet: An Efficient and Semantic-Enhanced Transformer Network for Point Cloud Prediction.
+
+# **License**
+
+This project is free software made available under the MIT License. For details see the LICENSE file.
