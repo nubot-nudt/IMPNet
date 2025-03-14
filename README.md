@@ -43,7 +43,7 @@ Use the following command to create the conda environment:
 
 ```conda env create -f impnet.yml```
 
-Then activate the environment using the command ```conda activate atppnet```
+Then activate the environment using the command ```conda activate impnet```
 
 ## Data
 Download the SemanticKITTI data from the official [website](http://semantic-kitti.org/).
